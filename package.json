@@ -1,0 +1,16 @@
+{
+  "name": "eco-wood-industry",
+  "version": "1.0.0",
+  "description": "Full-stack wood recycling and trading platform",
+  "scripts": {
+    "build": "cd client && npm install && npm run build",
+    "start": "node server/src/index.js",
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm start",
+    "install:client": "cd client && npm install",
+    "install:server": "cd server && npm install"
+  },
+  "keywords": ["wood", "recycling", "sustainability", "trading"],
+  "author": "Pranav Yehale",
+  "license": "MIT"
+}
