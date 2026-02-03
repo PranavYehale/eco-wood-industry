@@ -2,9 +2,9 @@
   "name": "eco-wood-server",
   "version": "1.0.0",
   "description": "Backend server for Eco Wood Industry application",
-  "main": "src/index.js",
+  "main": "src/",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node src/",
     "dev": "nodemon src/index.js"
   },
   "dependencies": {
